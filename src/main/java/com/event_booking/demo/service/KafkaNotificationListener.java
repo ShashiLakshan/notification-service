@@ -15,5 +15,6 @@ public class KafkaNotificationListener {
     @KafkaListener(topics = "notification-topic", groupId = "notification-group")
     public void consumeNotificationEvent(NotificationDto notificationDto) {
         log.info("Payment event consumed: {}", notificationDto);
+        log.info("Event {}", notificationDto.getNotificationStatus().name());
     }
 }
