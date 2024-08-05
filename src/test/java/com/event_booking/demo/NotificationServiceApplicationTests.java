@@ -1,4 +1,4 @@
-package com.notification_servce.demo.notification_service;
+package com.event_booking.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
